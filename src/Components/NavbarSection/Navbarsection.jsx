@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className="main-div lg:p-20  p-5">
     
-    <nav className=" flex justify-between max-w-screen-lg m-auto pt-5 fixed top-0 left-0 right-0 z-50  ">
+    <nav className=" flex justify-between max-w-screen-lg m-auto pt-5 fixed top-0 left-0 right-0 z-50 bg-gray-600 p-5  ">
   <div>
     <h1 className="font-bold text-white text-xl">ACENDA</h1>
   </div>
