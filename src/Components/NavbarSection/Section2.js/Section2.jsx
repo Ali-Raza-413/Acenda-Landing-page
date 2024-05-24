@@ -2,7 +2,7 @@ import React from 'react'
 
 function Section2() {
     return (
-        <div className='lg:p-[14rem] md: pt-[20rem]'>
+        <div className='lg:p-20 mt-[10rem]'>
             <h1 className='lg:text-5xl text-center text-black font-bold'>WHY CHOOSE US?</h1>
             <div className='grid gap-8 mt-5 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1'>
                 <div className='p-6'>

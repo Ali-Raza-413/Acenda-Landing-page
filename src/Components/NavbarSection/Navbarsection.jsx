@@ -10,35 +10,36 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="main-div">
-      <nav className='flex justify-between max-w-screen-lg m-auto pt-5'>
-        <div>
-          <h1 className="font-bold text-white text-xl">ACENDA</h1>
-        </div>
-        <div className="flex items-center">
-          <button
-            className="text-white md:hidden"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}></path>
-            </svg>
-          </button>
-          <ul className={`list flex-col gap-5 justify-center md:flex md:flex-row md:gap-[5rem]  absolute md:relative bg-gray-600 md:bg-transparent w-full md:w-auto left-0 md:left-auto top-16 md:top-auto transition-all duration-300 ease-in-out ${isOpen ? 'flex' : 'hidden'}`}>
-            <a href='#'><li className='text-white text-sm'>Home</li></a>
-            <a href='#'><li className='text-white text-sm'>Destination</li></a>
-            <a href='#'><li className='text-white text-sm'>Blog</li></a>
-            <a href='#'><li className='text-white text-sm'>News</li></a>
-            <a href='#'><li className='text-white text-sm'>Contact</li></a>
-          </ul>
-        </div>
-      </nav>
+    <div className="main-div lg:p-20  p-5">
+    
+    <nav className=" flex justify-between max-w-screen-lg m-auto pt-5 fixed top-0 left-0 right-0 z-50  ">
+  <div>
+    <h1 className="font-bold text-white text-xl">ACENDA</h1>
+  </div>
+  <div className="flex items-center">
+    <button
+      className="text-white md:hidden"
+      onClick={() => setIsOpen(!isOpen)}
+    >
+      <svg
+        className="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}></path>
+      </svg>
+    </button>
+    <ul className={`list flex-col gap-5 justify-center md:flex md:flex-row md:gap-[5rem] absolute md:relative bg-gray-600 md:bg-transparent w-full md:w-auto left-0 md:left-auto top-16 md:top-auto transition-all duration-300 ease-in-out ${isOpen ? 'flex' : 'hidden'}`}>
+      <a href='#'><li className='text-white text-sm'>Home</li></a>
+      <a href='#'><li className='text-white text-sm'>Destination</li></a>
+      <a href='#'><li className='text-white text-sm'>Blog</li></a>
+      <a href='#'><li className='text-white text-sm'>News</li></a>
+      <a href='#'><li className='text-white text-sm'>Contact</li></a>
+    </ul>
+  </div>
+</nav>
 
 
       <div className='pt-[550px] flex justify-center mb-5 '>

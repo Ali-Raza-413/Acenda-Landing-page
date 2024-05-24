@@ -13,7 +13,7 @@ import Rect10 from '../../Images/Rect10.png'
 function Section5() {
 
   return (
-    <div className='bg-white'>
+    <div className='bg-white lg:p-20'>
 <div className='flex justify-between flex-wrap'>
     <div>
         <h1 className='text-3xl text-black font-bold p-14 ml-7'>Feature News</h1>

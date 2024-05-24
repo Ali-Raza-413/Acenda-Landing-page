@@ -5,7 +5,7 @@ import bankcards from '../../Images/bankcards.png'
 function Footer() {
   return (
     <div className='footer p-20 w-[320px]:p-10'>
-      <div className="flex w[320px]: flex-col lg:flex-row justify-between">
+      <div className="flex w[320px]: flex-col lg:flex-row justify-between lg:p-20">
 
         <div>
          <h1 className='text-white text-lg font-bold'>Support</h1>

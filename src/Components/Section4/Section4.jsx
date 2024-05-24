@@ -7,9 +7,9 @@ import image3 from '../../Images/image3.png'
 
 function Section4() {
   return (
-    <div className='main-sec-4 p-5'>
-    <h1 className='lg:text-8xl font-bold text-white flex justify-start lg:p-[5rem]  w-[320px]: text-5xl sm:p-0'>EXPLORE MALDIVES</h1>
-    <div className='flex justify-evenly mt-5 '>
+    <div className='main-sec-4 lg:p-20 sm:p=[30px]'>
+    <h1 className=' lg:text-8xl font-bold text-white flex justify-start lg:p-[4rem]  w-[320px]: text-5xl sm:p-0'>EXPLORE MALDIVES</h1>
+    <div className='flex justify-end mt-5 '>
     <img  src={Line} alt='Line'></img>
     </div>
 

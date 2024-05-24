@@ -5,7 +5,7 @@ import Ellipse from '../../Images/Ellipse.png'
 
 function Section6() {
   return (
-    <div className='section-6 '>
+    <div className='section-6 lg:p-20 '>
        <div className='flex justify-between flex-wrap'>
     <div>
         <h1 className='text-3xl text-white font-bold p-14 ml-7'>Testimonials</h1>
